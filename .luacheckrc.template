@@ -202,6 +202,11 @@ stds.ox_lib = {
     }
 }
 
+globals = {
+    -- Ignore "accessing undefined variable 'MySQL'", as it is fake news
+    "MySQL",
+}
+
 -- manifest
 files["**/fxmanifest.lua"].std = "max+cfx_manifest"
 files["**/__resource.lua"].std = "max+cfx_manifest"
