@@ -55,7 +55,7 @@ stds.cfx = {
         "RemoveEventHandler",
         json = { fields = { "encode", "decode", "array", "getoption", "isarray", "isobject", "null", "object", "setoption", "use_lpeg" } },
         promise = { fields = { "new", "all", "first", "map" } },
-        table = { fields = { "create", "wipe", "clone", "type" } },
+        table = { fields = { "create", "wipe", "clone", "type", "deepclone" } },
         string = { fields = { "strjoin", "strtrim", "strconcat", "strsplit", "tostringall" } },
         utf8 = { fields = { "strlenutf8", "strcmputf8i" } },
         msgpack = { fields = { "extend", "extend_clear", "extend_get", "getoption", "gettype", "new", "next", "null", "pack", "pack_args", "safe", "sentinel", "packers", "set_array", "set_integer", "set_number", "set_string", "setoption", "settype", "unpack" } },
