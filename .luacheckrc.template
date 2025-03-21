@@ -83,7 +83,6 @@ stds.cfx = {
         "quat",
         "qua",
         "joaat",
-        "source",
         %%SHARED_GLOBALS%%
     }
 }
@@ -91,6 +90,7 @@ stds.cfx = {
 stds.cfx_sv = {
     globals = { "GlobalState" },
     read_globals = {
+        "source",
         "TriggerClientEvent",
         "TriggerLatentClientEvent",
         "RegisterServerEvent",
@@ -231,6 +231,8 @@ files["**/ox_target/**/*.lua"].ignore = {".*"}
 files["**/ox_inventory/**/*.lua"].ignore = {".*"}
 files["**/ox_doorlock/**/*.lua"].ignore = {".*"}
 files["**/oxmysql/**/*.lua"].ignore = {".*"}
+-- [external]
+files["**/[external]/**/*.lua"].ignore = {".*"}
 -- default
 max_line_length = 1100
 max_cyclomatic_complexity = 200
