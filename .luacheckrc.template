@@ -10,6 +10,7 @@ stds.cfx = {
                 "CreateThread",
                 "CreateThreadNow",
                 "SetTimeout",
+                "ClearTimeout",
                 "SetTickRoutine",
                 "SetEventRoutine",
                 "Trace",
