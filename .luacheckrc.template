@@ -234,6 +234,8 @@ files["**/ox_doorlock/**/*.lua"].ignore = {".*"}
 files["**/oxmysql/**/*.lua"].ignore = {".*"}
 -- pma-voice
 files["**/pma-voice/**/*.lua"].ignore = {".*"}
+-- temp resource
+files["**/Renewed-Laptop/**/*.lua"].ignore = {".*"}
 -- default
 max_line_length = 1100
 max_cyclomatic_complexity = 200
